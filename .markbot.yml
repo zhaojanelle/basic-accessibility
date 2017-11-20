@@ -1,0 +1,43 @@
+repo: 'basic-accessibility'
+canvasCourse: 'web-dev-3'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - modulifier
+  - accessibility
+  - aria-landmarks
+  - html-good-semantics
+  - nav-focus
+  - main-link-focus
+
+html:
+  - path: 'index.html'
+    has:
+      - 'header > h1 + nav'
+      - 'main > img + section > h2 + div > h3 + ol > li'
+      - 'footer > small'
+      - 'a[href="https://en.wikipedia.org/wiki/Pangolin#Behavior"]'
+      - 'a[aria-label="Read more about Pangolin behaviour"]'
+      - 'a[href="https://en.wikipedia.org/wiki/Pangolin#Conservation"]'
+      - 'a[aria-label="Read more about Pangolin conservation"]'
+    search:
+      - 'Jump to main content'
+      - 'Jump to navigation'
+      - 'Pangolin'
+      - 'Description'
+      - 'Behaviour'
+      - 'Conservation'
+      - 'Some countries where pangolins are found'
+      - 'Botswana'
+      - 'Kenya'
+      - 'Mozambique'
+      - 'Namibia'
+      - 'South Africa'
+      - 'Tanzania'
+      - 'Uganda'
+      - 'Zambia'
+      - 'Zimbabwe'
+      - '© 1821 Pangolin'
